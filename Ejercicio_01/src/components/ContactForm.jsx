@@ -63,7 +63,7 @@ export default function PlantExportForm() {
             placeholder="Escribe aquí tus observaciones o requerimientos específicos..."
           ></textarea>
         </div>
-
+        
         <button type="submit" className="btn btn-success">
           Enviar solicitud
         </button>
