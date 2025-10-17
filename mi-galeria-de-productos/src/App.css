@@ -1,0 +1,55 @@
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.ficha {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.cabecera h2 {
+  margin: 0;
+}
+
+.imagen-producto {
+  width: 100%;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.detalles ul {
+  padding-left: 20px;
+}
+
+.btn-info {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-info:hover {
+  background-color: #0056b3;
+}
+
+.oferta {
+  color: red;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.no-stock {
+  color: gray;
+  font-style: italic;
+}
