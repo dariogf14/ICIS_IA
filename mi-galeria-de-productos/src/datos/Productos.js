@@ -1,11 +1,12 @@
+import smartwatch from '../assets/smartwatch.jpg';
+import auriculares from '../assets/auriculares.jpg';
 export const productos = [
   {
     id: 1,
     nombre: 'Smartwatch',
     vendedor: { nombre: 'Apple', rating: 4.8 },
     imagenes: [
-      'https://picsum.photos/200/200?random=1',
-      'https://picsum.photos/200/200?random=2',
+      smartwatch
     ],
     enStock: true,
     precio: { moneda: '€', valor: 215.50, enOferta: true },
@@ -16,8 +17,7 @@ export const productos = [
     nombre: 'Auriculares',
     vendedor: { nombre: 'Fnac', rating: 4.5 },
     imagenes: [
-      'https://picsum.photos/200/200?random=3',
-      'https://picsum.photos/200/200?random=4',
+      auriculares
     ],
     enStock: false,
     precio: { moneda: '€', valor: 89.90, enOferta: false },
