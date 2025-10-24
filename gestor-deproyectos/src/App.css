@@ -1,0 +1,56 @@
+.topbar {
+  background: #0d6efd;
+  color: white;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.column-card {
+  background: transparent;
+}
+
+.column-header {
+  background: #f1f3f5;
+  border-radius: 6px;
+  padding: 0.8rem 0.9rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.project-card {
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  border: 1px solid #e8e9eb;
+}
+
+.priority-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.bg-danger { background-color: #dc3545 !important; }
+.bg-warning { background-color: #ffc107 !important; }
+.bg-success { background-color: #198754 !important; }
+.bg-info { background-color: #0dcaf0 !important; }
+
+.badge {
+  border-radius: 12px;
+  font-size: 0.75rem;
+  padding: 0.35rem 0.55rem;
+}
+
+.project-card h6 { font-weight: 600; }
+.project-card .small { font-size: 0.82rem; }
+
+.form-select-sm {
+  min-width: 140px;
+}
+
+@media (max-width: 768px) {
+  .topbar { font-size: 0.95rem; }
+}
