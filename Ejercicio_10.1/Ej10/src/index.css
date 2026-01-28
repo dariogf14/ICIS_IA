@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  min-height: 100vh;
+}
+
+aside {
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+aside h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+aside input {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.country-list {
+  list-style: none;
+}
+
+.country-list li {
+  margin-bottom: 0.3rem;
+}
+
+.country-list a {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 0.5rem;
+  text-decoration: none;
+  color: #333;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.country-list a:hover {
+  background-color: #f0f2f5;
+}
+
+.country-list a.active {
+  background-color: #e7efff;
+  font-weight: 600;
+}
+
+.country-list img {
+  width: 22px;
+  height: 14px;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+}
+
+main {
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+main img {
+  display: block;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+}
+
+main h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+main ul {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+main li {
+  margin-bottom: 0.4rem;
+}
+
+.borders {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.borders a {
+  background-color: #1e40af;
+  color: white;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.borders a:hover {
+  background-color: #1d4ed8;
+}
+
+main h2 {
+  font-size: 1.4rem;
+  color: #555;
+}
